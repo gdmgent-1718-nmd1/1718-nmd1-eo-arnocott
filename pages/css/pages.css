@@ -1,5 +1,5 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:  Roboto, sans-serif;
     font-weight: 400;
     letter-spacing: -.022em;
     font-synthesis: none;
@@ -10,9 +10,73 @@ body {
     line-height: 1.5em;
     padding: 25px;
 }
+a:link {color: #d79554}
+    a:visited {color: #e6a24d}
+    a:link {text-decoration: none;}
+    a:visited {text-decoration: none;}
+
+
 
 img {
-    max-width: 100%; /* Afbeeldingen responsive maken */
+    max-width: 100%; 
 }
 
-/* Voeg jouw css hieraan toe */
+div {
+    box-sizing: border-box;
+    width: 50%;
+    border: 5px solid #d97554;
+    
+}
+
+
+
+
+
+.tussentitel {
+    border-bottom: 2px solid #d97554;
+    border-collapse: separate;
+    border-spacing: 50px;}
+
+.title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+.labels {
+    font-weight: 400;
+    font-size: 18px;
+    color: #d97554;
+}
+
+.content {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.accents {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.tekst-colors {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+
+.header {
+            background-color: #d97554;
+            color: #ffff;
+            padding: 30px;
+            width: 100%;
+            text-align: center;
+            height: 100px;
+            font-size: 60px;
+        }

@@ -11,6 +11,13 @@ html, body {
     margin: 0;
 }
 
+div {
+    box-sizing: border-box;
+    width: 50%;
+    border: 5px solid #d97554;
+    float: left;
+}
+
 body {
     color: #333;
     line-height: 1.5em;
